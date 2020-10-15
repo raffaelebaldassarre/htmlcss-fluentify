@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.float-left{
+  float: left;
+}
+
+
+/* classi utility */
+.bg_blue{
+  background: #0C325A;
+}
+
+.bg_green{
+  background: #7CBB02;
+}
+
+.bg_grey{
+  background: #D3D3D3;
+}
+
+/* /classi utility */
+
+.site_header{
+  height: 550px;
+}
+
+.site_main{
+  height: 1000px;
+}
+
+.site_footer{
+  height: 150px;
+}
