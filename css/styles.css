@@ -142,6 +142,26 @@ body{
 .site_main{
   height: 1000px;
 }
+
+.main_top{
+  height: 140px;
+  text-align: center;
+  padding: 40px;
+}
+
+.main_top h2{
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.main_top p{
+  font-weight: 300;
+  color: #808080;
+  font-size: 18px;
+}
+
+
 /* /site_main */
 
 /* site_footer */
