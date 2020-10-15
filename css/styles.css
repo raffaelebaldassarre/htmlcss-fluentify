@@ -3,10 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 .float-left{
   float: left;
 }
-
 
 /* classi utility */
 .bg_blue{
@@ -21,6 +25,9 @@
   background: #D3D3D3;
 }
 
+.btn{
+  border-radius: 5px;
+}
 /* /classi utility */
 
 
@@ -40,6 +47,7 @@
   margin: auto;
 }
 
+/* navbar */
 .navbar{
   height: 80px;
   line-height: 80px;
@@ -66,10 +74,23 @@
   width: 42.5%;
 }
 
+.link_left a:hover{
+  color: orange;
+}
+
 .link_right{
   width: 42.5%;
   text-align: right;
 }
+
+#login{
+  border: 1px solid white;
+  margin: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/* /navbar */
+
 /* /site_header */
 
 /* site_main */
