@@ -23,14 +23,63 @@
 
 /* /classi utility */
 
+
+/* site_header */
 .site_header{
   height: 550px;
 }
 
+.navbar::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.navbar{
+  height: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.logo{
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  width: 15%;
+  height: 50%;
+  margin-top: 15px;
+}
+
+.navbar a{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.link_left{
+  width: 42.5%;
+}
+
+.link_right{
+  width: 42.5%;
+  text-align: right;
+}
+/* /site_header */
+
+/* site_main */
 .site_main{
   height: 1000px;
 }
+/* /site_main */
 
+/* site_footer */
 .site_footer{
   height: 150px;
 }
+/* /site_footer */
