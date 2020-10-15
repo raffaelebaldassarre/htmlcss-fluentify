@@ -28,8 +28,13 @@ body{
 .btn{
   border-radius: 5px;
 }
-/* /classi utility */
 
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+/* /classi utility */
 
 /* site_header */
 .site_header{
@@ -40,11 +45,6 @@ body{
   content: "";
   display: table;
   clear: both;
-}
-
-.container{
-  width: 80%;
-  margin: auto;
 }
 
 /* navbar */
@@ -159,6 +159,61 @@ body{
   font-weight: 300;
   color: #808080;
   font-size: 18px;
+}
+
+.row_1::after, .row_2::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container_row{
+  width: 90%;
+  margin: auto;
+  padding: 40px;
+}
+
+.container_row img{
+  height: 150px;
+}
+
+.row_1{
+  margin-bottom: 40px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.col_3{
+  width: 33.33%;
+}
+
+.col_3 h2{
+  padding: 15px;
+  color: #7CBB02;
+  font-weight: 500;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.col_3 hr{
+  width: 15%;
+  margin: auto;
+}
+
+.col_3 p{
+  color: #808080;
+  padding: 15px;
+  font-size: 17px;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.col_2{
+  width: 50%;
+}
+
+.col_2, .col_3{
+  text-align: center;
 }
 
 
